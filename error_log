@@ -1,0 +1,257 @@
+[17-Apr-2026 01:58:53 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql103.infinityfree.com failed: Name or service not known in /home/salmasho/public_html/salmashofa/app/core/Database.php on line 28
+[17-Apr-2026 01:58:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql103.infinityfree.com failed: Name or service not known in /home/salmasho/public_html/salmashofa/app/core/Database.php:28
+Stack trace:
+#0 /home/salmasho/public_html/salmashofa/app/core/Database.php(28): mysqli_connect()
+#1 /home/salmasho/public_html/salmashofa/app/models/GazebroModel.php(11): Database::connect()
+#2 /home/salmasho/public_html/salmashofa/app/controllers/PageController.php(17): GazebroModel->__construct()
+#3 /home/salmasho/public_html/salmashofa/index.php(74): PageController->__construct()
+#4 {main}
+  thrown in /home/salmasho/public_html/salmashofa/app/core/Database.php on line 28
+[17-Apr-2026 02:02:09 UTC] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql103.infinityfree.com failed: Name or service not known in /home/salmasho/public_html/app/core/Database.php on line 28
+[17-Apr-2026 02:02:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql103.infinityfree.com failed: Name or service not known in /home/salmasho/public_html/app/core/Database.php:28
+Stack trace:
+#0 /home/salmasho/public_html/app/core/Database.php(28): mysqli_connect()
+#1 /home/salmasho/public_html/app/models/GazebroModel.php(11): Database::connect()
+#2 /home/salmasho/public_html/app/controllers/PageController.php(17): GazebroModel->__construct()
+#3 /home/salmasho/public_html/index.php(74): PageController->__construct()
+#4 {main}
+  thrown in /home/salmasho/public_html/app/core/Database.php on line 28
+[17-Apr-2026 03:07:19 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/salmasho/public_html/app/views/admin/kelola_fasilitas.php on line 7
+[17-Apr-2026 03:56:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminController::updateHarga() in /home/salmasho/public_html/index.php:134
+Stack trace:
+#0 {main}
+  thrown in /home/salmasho/public_html/index.php on line 134
+[17-Apr-2026 04:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method UserModel::updateUser() in /home/salmasho/public_html/app/controllers/AdminController.php:191
+Stack trace:
+#0 /home/salmasho/public_html/index.php(136): AdminController->updateAkun()
+#1 {main}
+  thrown in /home/salmasho/public_html/app/controllers/AdminController.php on line 191
+[19-Apr-2026 23:38:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/salmasho/public_html/app/core/Database.php:12
+Stack trace:
+#0 /home/salmasho/public_html/app/core/Database.php(12): mysqli_connect()
+#1 /home/salmasho/public_html/app/models/GazebroModel.php(11): Database::connect()
+#2 /home/salmasho/public_html/app/controllers/PageController.php(17): GazebroModel->__construct()
+#3 /home/salmasho/public_html/index.php(77): PageController->__construct()
+#4 {main}
+  thrown in /home/salmasho/public_html/app/core/Database.php on line 12
+[19-Apr-2026 23:38:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/salmasho/public_html/app/core/Database.php:12
+Stack trace:
+#0 /home/salmasho/public_html/app/core/Database.php(12): mysqli_connect()
+#1 /home/salmasho/public_html/app/models/GazebroModel.php(11): Database::connect()
+#2 /home/salmasho/public_html/app/controllers/PageController.php(17): GazebroModel->__construct()
+#3 /home/salmasho/public_html/index.php(77): PageController->__construct()
+#4 {main}
+  thrown in /home/salmasho/public_html/app/core/Database.php on line 12
+[19-Apr-2026 23:38:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/salmasho/public_html/app/core/Database.php:12
+Stack trace:
+#0 /home/salmasho/public_html/app/core/Database.php(12): mysqli_connect()
+#1 /home/salmasho/public_html/app/models/GazebroModel.php(11): Database::connect()
+#2 /home/salmasho/public_html/app/controllers/PageController.php(17): GazebroModel->__construct()
+#3 /home/salmasho/public_html/index.php(77): PageController->__construct()
+#4 {main}
+  thrown in /home/salmasho/public_html/app/core/Database.php on line 12
+[19-Apr-2026 23:39:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/salmasho/public_html/app/core/Database.php:12
+Stack trace:
+#0 /home/salmasho/public_html/app/core/Database.php(12): mysqli_connect()
+#1 /home/salmasho/public_html/app/models/GazebroModel.php(11): Database::connect()
+#2 /home/salmasho/public_html/app/controllers/PageController.php(17): GazebroModel->__construct()
+#3 /home/salmasho/public_html/index.php(77): PageController->__construct()
+#4 {main}
+  thrown in /home/salmasho/public_html/app/core/Database.php on line 12
+[19-Apr-2026 23:39:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/salmasho/public_html/app/core/Database.php:12
+Stack trace:
+#0 /home/salmasho/public_html/app/core/Database.php(12): mysqli_connect()
+#1 /home/salmasho/public_html/app/models/GazebroModel.php(11): Database::connect()
+#2 /home/salmasho/public_html/app/controllers/PageController.php(17): GazebroModel->__construct()
+#3 /home/salmasho/public_html/index.php(77): PageController->__construct()
+#4 {main}
+  thrown in /home/salmasho/public_html/app/core/Database.php on line 12
+[19-Apr-2026 23:39:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/salmasho/public_html/app/core/Database.php:12
+Stack trace:
+#0 /home/salmasho/public_html/app/core/Database.php(12): mysqli_connect()
+#1 /home/salmasho/public_html/app/models/GazebroModel.php(11): Database::connect()
+#2 /home/salmasho/public_html/app/controllers/PageController.php(17): GazebroModel->__construct()
+#3 /home/salmasho/public_html/index.php(77): PageController->__construct()
+#4 {main}
+  thrown in /home/salmasho/public_html/app/core/Database.php on line 12
+[20-Apr-2026 01:24:39 UTC] PHP Parse error:  syntax error, unexpected identifier "icon", expecting "," or ";" in /home/salmasho/public_html/app/views/admin/proses_gazebo.php on line 41
+[23-Apr-2026 04:08:00 Asia/Makassar] PHP Warning:  require_once(/home/salmasho/public_html/app/views/pages/../models/FasilitasModel.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/app/views/pages/gazebo.php on line 8
+[23-Apr-2026 04:08:00 Asia/Makassar] PHP Fatal error:  Uncaught Error: Failed opening required '/home/salmasho/public_html/app/views/pages/../models/FasilitasModel.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/app/views/pages/gazebo.php:8
+Stack trace:
+#0 /home/salmasho/public_html/app/core/View.php(18): require()
+#1 /home/salmasho/public_html/app/core/Controller.php(9): View::render()
+#2 /home/salmasho/public_html/app/controllers/PageController.php(66): Controller->view()
+#3 /home/salmasho/public_html/index.php(106): PageController->gazebo()
+#4 {main}
+  thrown in /home/salmasho/public_html/app/views/pages/gazebo.php on line 8
+[22-Apr-2026 20:36:54 UTC] PHP Parse error:  syntax error, unexpected token "endforeach" in /home/salmasho/public_html/app/views/admin/kelola_harga.php on line 163
+[22-Apr-2026 20:36:54 UTC] PHP Parse error:  syntax error, unexpected token "endforeach" in /home/salmasho/public_html/app/views/admin/kelola_harga.php on line 163
+[22-Apr-2026 20:36:58 UTC] PHP Parse error:  syntax error, unexpected token "endforeach" in /home/salmasho/public_html/app/views/admin/kelola_harga.php on line 163
+[25-Apr-2026 15:56:02 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:56:02 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:56:02 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:56:02 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:56:02 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:56:02 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:56:04 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:56:04 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:56:04 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:56:04 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:56:04 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:56:04 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:56:15 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:56:15 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:56:15 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:56:15 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:56:15 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:56:15 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:56:50 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:56:50 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:56:50 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:56:50 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:56:50 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:56:50 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:57:14 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:57:14 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:57:14 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:57:14 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:57:14 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:57:14 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:58:00 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:58:00 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:58:00 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:58:00 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:58:00 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:58:00 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:58:03 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:58:03 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:58:03 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:58:03 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:58:03 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:58:03 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:58:50 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:58:50 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:58:50 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:58:50 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:58:50 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:58:50 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:58:53 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:58:53 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:58:53 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:58:53 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:58:53 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:58:53 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 310
+[25-Apr-2026 15:59:10 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:10 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:10 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:10 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:10 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:10 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:11 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:11 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:11 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:11 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:11 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:11 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:12 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:12 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:12 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:12 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:12 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:12 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:13 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:13 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:13 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:13 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:13 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:13 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:19 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:19 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:19 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:19 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:19 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:19 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:21 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:21 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:21 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:21 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:21 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:21 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:26 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:26 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:26 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:26 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:26 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:26 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:49 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:49 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:49 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 15:59:49 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:49 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 15:59:49 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:00:03 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:00:03 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:00:03 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:00:03 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:00:03 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:00:03 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:00:34 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:00:34 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:00:34 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:00:34 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:00:34 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:00:34 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:00:46 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:00:46 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:00:46 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:00:46 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:00:46 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:00:46 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:00:49 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:00:49 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:00:49 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:00:49 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:00:49 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:00:49 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:02:13 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:02:13 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:02:13 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:02:13 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:02:13 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:02:13 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:02:16 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:02:16 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:02:16 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:02:16 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:02:16 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:02:16 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:02:36 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:02:36 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:02:36 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:02:36 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:02:36 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:02:36 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:04:49 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:04:49 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:04:49 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:04:49 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:04:49 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:04:49 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:04:51 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:04:51 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:04:51 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:04:51 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:04:51 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:04:51 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:05:03 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:05:03 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:05:03 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:05:03 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:05:03 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:05:03 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:05:58 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:05:58 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/navbar.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:05:58 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/navbar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 29
+[25-Apr-2026 16:05:58 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:05:58 UTC] PHP Warning:  include(/home/salmasho/public_html/../shared/includes/footer.php): Failed to open stream: No such file or directory in /home/salmasho/public_html/index.php on line 232
+[25-Apr-2026 16:05:58 UTC] PHP Warning:  include(): Failed opening '/home/salmasho/public_html/../shared/includes/footer.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/salmasho/public_html/index.php on line 232
